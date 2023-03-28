@@ -1,5 +1,5 @@
 import React from 'react'
-
+import 'font-awesome/css/font-awesome.min.css';
 function Todo({todo, todos, setTodos}) {
     function deleteTodoHandler(){
         setTodos(todos.filter((ele) => ele.id !== todo.id))
@@ -21,11 +21,11 @@ function Todo({todo, todos, setTodos}) {
         <li className= {`todo-item ${todo.completed ? 'completed' : ''}`}>{todo.text}
 
         </li>
-        <button onClick = {completeTodoHandler} className='complete-brn'>
-            <i className='fas fa-check'></i>
+        <button onClick = {completeTodoHandler} className='complete-btn'>
+            <i className='fa fa-check'></i>
         </button>
-        <button onClick = {deleteTodoHandler} className='trash-brn'>
-            <i className='fas fa-trash'></i>
+        <button onClick = {deleteTodoHandler} className='trash-btn'>
+            <i className='fa fa-trash'></i>
         </button>
     </div>
   )

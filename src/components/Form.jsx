@@ -1,4 +1,5 @@
 import React from 'react'
+import 'font-awesome/css/font-awesome.min.css';
 function Form({inputText, setInputText, todos, setTodos, setStatus}) {
 const submitTodoHandler = (e) =>{
     e.preventDefault()
@@ -19,7 +20,7 @@ const inputTextHandler = (e) =>{
     onChange = {inputTextHandler}
     />
     <button onClick = {submitTodoHandler} className = 'todo-button' type = 'submit'> 
-    <i className='fas fa-plus-square'></i>
+    <i className='fa fa-plus-square'></i>
     </button>
   </form>
   )
