@@ -1,5 +1,4 @@
 import React from 'react'
-import 'font-awesome/css/font-awesome.min.css';
 function Todo({todo, todos, setTodos}) {
     function deleteTodoHandler(){
         setTodos(todos.filter((ele) => ele.id !== todo.id))
