@@ -5,7 +5,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [Math-Magician ](#math-magician-)
+- [React todo ](#react-todo-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -25,9 +25,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# Math-Magician <a name="about-project"></a>
+# React todo <a name="about-project"></a>
 
-**Math-Magician** is a web based single page calculator that allows users to perform simple mathematical operations.
+**React todo** is a simple todo application.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -78,7 +78,7 @@ Clone this repository to your desired folder:
 
 ```sh
   git 
-  cd Math-React
+  cd todo-react
 ```
 
 ### Install
@@ -123,7 +123,7 @@ To run tests, run the following command:
 
 - [ ] **responsive for all devices**
 - [ ] **Create Components**
-- [ ] **create Calculator page**
+- [ ] **Todo list**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTRIBUTING -->
