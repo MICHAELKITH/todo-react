@@ -5,10 +5,10 @@ const submitTodoHandler = (e) =>{
     inputText &&
     setTodos([...todos, {text:inputText, completed: false, id: Math.random() * 1000},
     ]);
-    setInputText(' ');
+    setInputText('');
 };
 const inputTextHandler = (e) =>{
-    setInputText(e.target.value)
+    setInputText(e.target.value);
 }
   return (
   <form>

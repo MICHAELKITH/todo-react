@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Header />
-      <Form todos={todos} setTodos={setTodos} inputText={inputText} setInput={setInputText} />
+      <Form todos={todos} setTodos={setTodos} inputText={inputText} setInputText={setInputText} />
       <TodoList todos={todos} setTodos={setTodos} />
     </>
   );
