@@ -21,10 +21,10 @@ function Todo({ todo, todos, setTodos }) {
         {todo.text}
 
       </li>
-      <button onClick={completeTodoHandler} className="complete-btn">
+      <button type="button" onClick={completeTodoHandler} className="complete-btn">
         <i className="fa fa-check" />
       </button>
-      <button onClick={deleteTodoHandler} className="trash-btn">
+      <button type="button" onClick={deleteTodoHandler} className="trash-btn">
         <i className="fa fa-trash" />
       </button>
     </div>
